@@ -10,11 +10,12 @@ public class LaptopshopApplication {
 	public static void main(String[] args) {
 		
 		// Container
-		ApplicationContext locnht = SpringApplication.run(LaptopshopApplication.class, args);
-		for (String s: locnht.getBeanDefinitionNames()) {
-			System.out.println(s);
-		}
-
+		// ApplicationContext locnht = SpringApplication.run(LaptopshopApplication.class, args);
+		// for (String s: locnht.getBeanDefinitionNames()) {
+		// 	System.out.println(s);
+		// }
+		
+		SpringApplication.run(LaptopshopApplication.class, args);
 	}
 
 }
